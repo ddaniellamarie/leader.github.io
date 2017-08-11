@@ -1,0 +1,46 @@
+body{
+  background-color: #FFFFFF;
+  cursor: crosshair;
+ }
+
+#content{
+  position: absolute;
+  left: 450px;
+  top: 200px;
+  height: 260px;
+  width: 480px;
+  font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  border-style: solid;
+  border-width: 6px;
+  padding: 10px;
+  z-index: 2;
+}
+
+#links{
+	position: absolute;
+	top: 850px;
+	left: 50px;
+	font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: green;
+	text-transform: uppercase;
+}
+
+.box{
+  background-color: #F4D03F;
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  height: 300px;
+  width: 500px;
+  
+}
+ 
